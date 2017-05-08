@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="credits">
+        <item>*by androidsoft.org</item>
+        <item>*</item>
+        <item>*</item>
+        <item>*</item>
+        <item>*</item>
+        <item>License</item>
+        <item>*</item>
+        <item>*This program is free software:</item>
+        <item>*you can redistribute it and/or </item>
+        <item>*modify it under the terms of the </item>
+        <item>*GNU General Public License </item>
+        <item>*as published by the Free Software</item>
+        <item>*Foundation, either version 3 </item>
+        <item>*of the License, or (at your option)</item>
+        <item>*any later version.</item>
+        <item>*</item>
+        <item>*The original version was published</item>
+        <item>*by Peter Dornbach</item>
+        <item>*under Apache License 2.0</item>
+        <item>*for more information see</item>
+        <item>*http://www.zebra4me.com/</item>
+        <item>*</item>
+        <item>*Icons are published</item>
+        <item>*by Everaldo Coelho</item>
+        <item>*under the terms of the GNU</item>
+        <item>*Lesser General Public License.</item>
+        <item>*</item>
+        <item>*Drawings provided by kind </item>
+        <item>*courtesy of Peter Dornbach</item>
+        <item>*</item>
+        <item>*</item>
+        <item>*</item>
+        <item>Credits</item>
+        <item>*</item>
+        <item>*/* Main developer */</item>
+        <item>*</item>
+        <item>*Peter Dornbach</item>
+        <item>*</item>
+        <item>*/* GNU version contributor */</item>
+        <item>*</item>
+        <item>*Pierre Levy</item>
+        <item>*</item>
+        <item>*</item>
+        <item>*</item>
+        <item>*</item>
+        <item>*http://www.androidsoft.org</item>
+        <item>*Copyright (c) 2010-2011 P. Dornbach, P. Levy</item>
+    </array>
+    <attr format="reference" name="colorButtonStyle"/>
+    <attr format="reference" name="coloringButtonStyle"/>
+    <declare-styleable name="ColorButton"><attr format="color" name="color"/></declare-styleable>
+    <drawable name="translucent_background">#c0000000</drawable>
+    <string name="app_name">Fun Coloring</string>
+    <string name="button_go">Go</string>
+    <string name="credits_app_name">Coloring for Kids</string>
+    <string name="credits_current_version">Version 1.0.1</string>
+    <string name="dialog_saving">Saving to Pictures… </string>
+    <string name="dialog_saving_error">Error!</string>
+    <string name="dialog_saving_ok">OK!</string>
+    <string name="dialog_share">Share image using</string>
+    <string name="first_run_dialog_message">Thanks for downloading Coloring for Kids\n\n
+    Quick start instructions :\n
+    \t• Select color and paint template with your finger.\n
+    \n\n Enjoy it!\n
+    </string>
+    <string name="first_run_dialog_title">Welcome to Coloring for Kids!</string>
+    <string name="menu_about">About</string>
+    <string name="menu_new">New</string>
+    <string name="menu_save">Save</string>
+    <string name="menu_share">Share</string>
+    <string name="saved_image_path_prefix">/dcim/Coloring for Kids/</string>
+    <string name="whats_new_dialog_message">Thanks for upgrading Coloring for Kids\n\n
+    <b>New in version 1.0.1:</b>\n
+    \t• Minor bugs fixes (uninstall synchronization).\n
+    \n\nEnjoy it and don\'t forget to rate it to support the development.
+    </string>
+    <string name="whats_new_dialog_title">What\'s new in Coloring for Kids</string>
+    <style name="Theme" parent="android:Theme">
+    </style>
+    <style name="Theme.Default">
+<!--
+	    <item name="android:windowNoTitle">true</item>
+	    <item name="android:windowFullscreen">true</item>
+-->
+    </style>
+    <style name="Theme.Transparent">
+  
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Translucent</item>
+        <item name="android:windowBackground">@drawable/translucent_background</item>
+      
+<!--        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item> -->
+<!--        <item name="android:windowContentOverlay">@null</item>
+       <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+-->
+        <item name="android:colorForeground">#fff</item>
+
+    </style>
+    <style name="Widget">
+    </style>
+    <style name="Widget.Button">
+        <item name="android:background">#00000000</item>
+    </style>
+    <style name="Widget.Button.ColorButton">
+    </style>
+</resources>

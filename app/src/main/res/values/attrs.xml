@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <attr name="coloringButtonStyle" format="reference" />
+    <attr name="colorButtonStyle" format="reference" />
+
+    <declare-styleable name="ColorButton">
+        <attr name="color" format="color" />
+    </declare-styleable>
+</resources>

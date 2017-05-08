@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Users\\Laila\\Desktop\\alwan\\app\\build\\intermediates\\res\\merged\\debug\\layout\\paint.xml",
+        "source": "C:\\Users\\Laila\\Desktop\\alwan\\app\\src\\main\\res\\layout\\paint.xml"
+    },
+    {
+        "merged": "C:\\Users\\Laila\\Desktop\\alwan\\app\\build\\intermediates\\res\\merged\\debug\\layout\\splash.xml",
+        "source": "C:\\Users\\Laila\\Desktop\\alwan\\app\\src\\main\\res\\layout\\splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\Laila\\Desktop\\alwan\\app\\build\\intermediates\\res\\merged\\debug\\layout\\start_new.xml",
+        "source": "C:\\Users\\Laila\\Desktop\\alwan\\app\\src\\main\\res\\layout\\start_new.xml"
+    },
+    {
+        "merged": "C:\\Users\\Laila\\Desktop\\alwan\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pick_color.xml",
+        "source": "C:\\Users\\Laila\\Desktop\\alwan\\app\\src\\main\\res\\layout\\pick_color.xml"
+    }
+]

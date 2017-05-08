@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.androidsoft.coloring"
+    android:versionCode="2"
+    android:versionName="1.0.1" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:logo="@drawable/icon" >
+        <activity
+            android:name="org.androidsoft.coloring.ui.activity.SplashActivity"
+            android:label="@string/app_name"
+            android:noHistory="true"
+            android:screenOrientation="landscape" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="org.androidsoft.coloring.ui.activity.PaintActivity"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="org.androidsoft.coloring.ui.activity.PaintActivity2"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="org.androidsoft.coloring.ui.activity.StartNewActivity"
+            android:screenOrientation="landscape" >
+
+            <!-- android:theme="@style/Theme.Transparent" -->
+            <intent-filter>
+                <action android:name="org.androidsoft.coloring.paint.START_NEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="org.androidsoft.coloring.ui.activity.StartNewActivity2"
+            android:screenOrientation="landscape" >
+
+            <!-- android:theme="@style/Theme.Transparent" -->
+            <intent-filter>
+                <action android:name="org.androidsoft.coloring.paint.START_NEW2" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="org.androidsoft.coloring.ui.activity.PickColorActivity"
+            android:screenOrientation="landscape" >
+
+            <!-- android:theme="@style/Theme.Transparent" -->
+            <intent-filter>
+                <action android:name="org.androidsoft.coloring.paint.PICK_COLOR" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="org.androidsoft.coloring.ui.activity.CreditsActivity"
+            android:hardwareAccelerated="true"
+            android:screenOrientation="landscape" >
+            <intent-filter>
+                <action android:name="org.androidsoft.coloring.paint.ABOUT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

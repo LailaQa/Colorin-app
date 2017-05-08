@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:coloring="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <!-- The colors used here should match one of the colors in pick_color.xml -->
+
+        <org.androidsoft.coloring.ui.widget.ColorButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            coloring:color="#FF0000" />
+
+        <org.androidsoft.coloring.ui.widget.ColorButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            coloring:color="#FFA500" />
+
+        <org.androidsoft.coloring.ui.widget.ColorButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            coloring:color="#FFFF00" />
+
+        <org.androidsoft.coloring.ui.widget.ColorButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            coloring:color="#32CD32" />
+
+        <org.androidsoft.coloring.ui.widget.ColorButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            coloring:color="#0000FF" />
+
+        <org.androidsoft.coloring.ui.widget.ColorButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            coloring:color="#800080" />
+        <!--
+            <org.androidsoft.coloring.ui.widget.ColoringImageButton android:id="@+id/pick_color_button"
+                                         android:layout_width="wrap_content" 
+                                         android:layout_height="wrap_content"/>
+        -->
+
+        <ImageView
+            android:id="@+id/pick_color_button"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/palette" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <org.androidsoft.coloring.ui.widget.PaintView
+            android:id="@+id/paint_view"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+
+        <ProgressBar
+            android:id="@+id/paint_progress"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="240dip"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:src="@drawable/color_guide" />
+
+</LinearLayout>
