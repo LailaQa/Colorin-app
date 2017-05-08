@@ -40,8 +40,10 @@ public class SplashActivity extends Activity  {
 			Intent intent = new Intent(this, PaintActivity.class);
 			startActivity(intent);
 		} else if (v == mButtonPlay2) {
-			
-		}
+				
+Intent intent = new Intent(this, PaintActivity2.class);
+			startActivity(intent);
+}
 	}
 
 	
